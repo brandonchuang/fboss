@@ -57,7 +57,9 @@ const list<string> ALLOWED_PMUNIT_NAMES = [
   "LEH800BCLS_MCB",
   "MINIPACK3_MCB",
   "MINIPACK3BA_MCB",
+  "MINIPACK3BAM_MCB",
   "MINIPACK3N_MCB",
+  "MINIPACK3NM_MCB",
   "TAHANSB800BC_MCB",
   // The whole board is a PmUnit for these
   "TAHAN",
