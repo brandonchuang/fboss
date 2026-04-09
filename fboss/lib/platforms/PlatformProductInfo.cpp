@@ -257,7 +257,7 @@ void PlatformProductInfo::initMode() {
       type_ = PlatformType::PLATFORM_WEDGE400C_VOQ;
     } else if (FLAGS_mode == "wedge400c_fabric") {
       type_ = PlatformType::PLATFORM_WEDGE400C_FABRIC;
-    } else if (FLAGS_mode == "montblanc" || FLAGS_mode == "minipack3ba") {
+    } else if (FLAGS_mode == "montblanc" || FLAGS_mode == "minipack3ba" || FLAGS_mode == "minipack3bam") {
       type_ = PlatformType::PLATFORM_MONTBLANC;
     } else if (FLAGS_mode == "icecube800bc") {
       type_ = PlatformType::PLATFORM_ICECUBE800BC;
@@ -275,7 +275,7 @@ void PlatformProductInfo::initMode() {
       type_ = PlatformType::PLATFORM_YANGRA;
     } else if (FLAGS_mode == "minipack3bta") {
       type_ = PlatformType::PLATFORM_MINIPACK3BTA;
-    } else if (FLAGS_mode == "minipack3n") {
+    } else if (FLAGS_mode == "minipack3n" || FLAGS_mode == "minipack3nm") {
       type_ = PlatformType::PLATFORM_MINIPACK3N;
     } else if (FLAGS_mode == "wedge800bact") {
       type_ = PlatformType::PLATFORM_WEDGE800BACT;
